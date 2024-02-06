@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function() {
 document.getElementById('dlbutton').addEventListener('click', function() {
     // Créer un lien pour le téléchargement du fichier
     var link = document.createElement('a');
-    link.setAttribute('href', '../fichier/CV_COTTIER_Alexandre.pdf');
+    link.setAttribute('href', './fichier/CV_COTTIER_Alexandre.pdf');
     link.setAttribute('download', 'COTTIER_Alexandre.pdf');
 
     // Simuler le clic sur le lien
