@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="fr">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COTTIER Alexandre</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" type="image/x-icon" href="../img/cv.ico">
+ 
+
+    <section class="canvas-wrap">
+        
+        <div class="canvas-content">
+            <h1><img src="../img/Moi2.png" alt="Image de moi">COTTIER Alexandre</h1>
+        </div>
+        <div id="canvas" class="gradient"></div>
+            
+</head>
+<body>
+
+        
+    </section>
+
+    <div id="cv">
+        <!-- Informations personnelles -->
+        <div class="section">
+            <h2>Informations personnelles</h2>
+            <p>Nom: <span id="nom"></span></p>
+            <p>Email: <span id="email"></span></p>
+            <p>Téléphone: <span id="telephone"></span></p>
+            <p>Adresse: <span id="adresse"></span></p>
+            <p>Véhiculé Permis B</p>
+
+            
+        </div>
+        <button class="bttn-unite bttn-md bttn-primary" id="dlbutton"> ➤ CV PDF </button>
+
+        
+        <!-- Motivation -->
+        <div>
+            <h2>Motivation</h2>
+            <p>Étudiant motivé en licence d'informatique avec une passion pour la technologie et le développement de logiciels. Possède de solides compétences en programmation, en résolution de problèmes et en collaboration. Recherche une opportunité d'acquérir une expérience pratique dans le domaine de l'informatique pour renforcer mes connaissances et développer mes compétences.</p>
+            <p>Mes projets sont disponible sur ma page <a href="https://github.com/Mantador01">GitHub</a></p>
+            <p>Je développe des projets d'applications mobiles et des jeux vidéos sur unity... (en cours)</p>
+        </div>
+
+
+        <h2 class="mid">Compétences</h2>
+
+        <div class="row">
+            <div class="column">
+                <div class="conteneur-image-texte">
+                    <!-- <h2>Compétences</h2> -->
+                    <img src="../img/cpp.png" alt="Icone C++">
+                    <p>C++</p>
+                </div>
+        
+                <div class="conteneur-image-texte">
+                    <img src="../img/c.png" alt="Icone C#">
+                    <p>C#</p>
+                </div>
+
+                <div class="conteneur-image-texte">
+                    <img src="../img/ocaml.png" alt="Icone ocaml">
+                    <p>Ocaml</p>
+                </div>
+
+                <div class="conteneur-image-texte">
+                    <img src="../img/sql.png" alt="Icone sql">
+                    <p>SQL</p>
+                </div>
+        
+                <!-- Ajoutez d'autres conteneurs pour les compétences de la première colonne -->
+            </div>
+        
+            <div class="column">
+                <div class="conteneur-image-texte">
+                    <img src="../img/html.png" alt="Icone html">
+                    <p>HTML</p>
+                </div>
+        
+                <div class="conteneur-image-texte">
+                    <img src="../img/css.png" alt="Icone css">
+                    <p>CSS</p>
+                </div>
+                
+                <div class="conteneur-image-texte">
+                    <img src="../img/php.png" alt="Icone php">
+                    <p>PHP</p>
+                </div>
+
+                <div class="conteneur-image-texte">
+                    <img src="../img/js.png" alt="Icone js">
+                    <p>JavaScript</p>
+                </div>
+                <!-- Ajoutez d'autres conteneurs pour les compétences de la deuxième colonne -->
+            </div>
+        </div>
+        
+        
+
+        <!-- Expérience professionnelle -->
+        <div class="section">
+            <h2>Expérience professionnelle</h2>
+            <ul>
+                <li>
+                    <h3>2022 : </h3>
+                    <p>J'ai réaliser et maintenue un <a href="https://www.laurence-magnetisme.fr/">site</a> web pour une entreprise de soin.</p>
+                    <h3>2019 : </h3>
+                    <p>Travail dans le batîment.</p>
+                    <h3>2016 : </h3>
+                    <p>Stage à VillaVerde (Bourg-en-bresse), mise en rayon, maintenance du matériel et entretien des animaux.</p>
+                </li>
+                <!-- Ajoutez d'autres expériences professionnelles selon votre besoin -->
+            </ul>
+        </div>
+
+        <!-- Education -->
+        <h2>Scolarité</h2>
+        <table>
+            <thead>
+              <tr>
+                <th>Année</th>
+                <th>Niveau d'étude</th>
+                <th>École / Université</th>
+                <th>Diplôme / Spécialisation</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>2021-2024</td>
+                <td>Supérieur</td>
+                <td>Université Claude Bernard Lyon 1</td>
+                <td>Licence d'informatique</td>
+              </tr>
+              <tr>
+                <td>2019-2020</td>
+                <td>Secondaire</td>
+                <td>Candidat libre</td>
+                <td>Bac Scientifique Spécialité SVT option Mathématiques</td>
+              </tr>
+              <tr>
+                <td>2017-2019</td>
+                <td>Secondaire</td>
+                <td>Lycée Carriat</td>
+                <td>Première et Terminale STI2D Système informatique et numérique</td>
+              </tr>
+              <tr>
+                <td>2015</td>
+                <td>Secondaire</td>
+                <td>Collège de l'Huppe</td>
+                <td>Diplôme national du brevet</td>
+              </tr>
+              <!-- Ajoutez d'autres lignes pour représenter vos autres études -->
+            </tbody>
+          </table>
+        </div>
+    </div>
+    <script src="../controleurs/script.js"></script>
+
+    <!-- Main library -->
+    <script src="../js/three.min.js"></script>
+  
+    <!-- Helpers -->
+    <script src="../js/projector.js"></script>
+    <script src="../js/canvas-renderer.js"></script>
+
+    <!-- Visualitzation adjustments -->
+    <script src="../js/3d-lines-animation.js"></script>
+
+    <!-- Animated background color -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <script src="../js/color.js"></script>
+    <section class="canvas-wrap">
+
+
+    
+     
+    <div class="canvas-content">
+            
+    </div>
+    <div id="canvas" class="gradient"></div>
+
+</body>
+
+</html>
